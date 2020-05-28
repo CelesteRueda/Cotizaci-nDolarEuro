@@ -1,0 +1,26 @@
+/* Hoja de estilos */
+
+h1{
+    text-align: center;
+    
+    
+}
+body{
+    background-color: rgb(37, 95, 68);
+}
+.buttons{
+    width: 400px;
+    height: 40px;
+    background-color: gray;
+    font-family: Arial;
+    font-weight: bold;
+}
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+p{
+    text-align: center;
+}

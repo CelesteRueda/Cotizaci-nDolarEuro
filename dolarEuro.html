@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotización</title>
+    <link rel="stylesheet" href="dolarEuro.css">
+    <script src="dolarEuro.js"></script>
+</head>
+<body>
+    <h1>Cotización:</h1>
+    <div>
+    <button class="buttons" onclick="getElementById('button1').innerHTML = `Compra: ${valor(info.dolar_oficial.compra)} Venta: ${valor(info.dolar_oficial.venta)}`">Dólar</button>
+        <br>
+        <p id="button1"></p>
+        <br>
+        <button class="buttons" onclick="getElementById('button2').innerHTML = `Compra: ${valor(info.dolar_blue.compra)} Venta: ${valor(info.dolar_blue.venta)}`">Dólar Blue</button>
+        <br>
+        <p id="button2"></p>
+        <br>
+        <button class="buttons" onclick="getElementById('button3').innerHTML = `Compra: ${valor(info.euro.compra)} Venta: ${valor(info.euro.venta)}`">Euro</button>
+        <br>
+        <p id="button3"></p>
+    </div>
+</body>
+</html>
